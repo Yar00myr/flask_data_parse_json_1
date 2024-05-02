@@ -1,0 +1,35 @@
+.
+├── app
+│   ├── db
+│   │   ├── __init__.py
+│   │   └── models
+│   │       ├── event.py
+│   │       ├── __init__.py
+│   │       └── user.py
+│   ├── forms
+│   │   ├── __init__.py
+│   │   ├── login.py
+│   │   └── register.py
+│   ├── __init__.py
+│   ├── routes
+│   │   ├── auth.py
+│   │   ├── default.py
+│   │   ├── error.py
+│   │   └── __init__.py
+│   ├── static
+│   │   ├── css
+│   │   │   └── main.css
+│   │   ├── img
+│   │   └── js
+│   └── templates
+│       ├── base.html
+│       ├── error.html
+│       ├── form_template.html
+│       ├── __helpers.html
+│       └── main.html
+├── main.py
+├── my_db.sql
+├── requirements.txt
+└── tree.txt
+
+11 directories, 22 files

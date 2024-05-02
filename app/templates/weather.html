@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+
+{% block main %}
+    <div class="weather-container">
+    <h1>Прогноз погоди</h1>
+    {% if weather %}
+    <div>
+        <div>Температура: {{ weather.temperature }}°C</div>
+        <div>Опис: {{ weather.description }}</div>
+        <img class="weather-icon" src="http://openweathermap.org/img/w/{{ weather.icon }}.png" alt="Weather Icon">
+    </div>
+    {% else %}
+    <p>Немає даних про погоду</p>
+    {% endif %}
+</div>
+{% endblock main %}
